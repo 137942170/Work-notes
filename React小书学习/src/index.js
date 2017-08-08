@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CommentApp from './CommentApp';
+import PercentageShower from './PercentageShower';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<CommentApp />, document.getElementById('root'));
+ReactDOM.render(<PercentageShower />, document.getElementById('root'));
 registerServiceWorker();
