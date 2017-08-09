@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Modal from './Modal';
+import IndexClock from './Clock';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Modal />, document.getElementById('root'));
+ReactDOM.render(<IndexClock />, document.getElementById('root'));
 registerServiceWorker();
