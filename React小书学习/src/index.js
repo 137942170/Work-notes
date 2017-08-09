@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import PercentageShower from './PercentageShower';
+import Modal from './Modal';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<PercentageShower />, document.getElementById('root'));
+ReactDOM.render(<Modal />, document.getElementById('root'));
 registerServiceWorker();
